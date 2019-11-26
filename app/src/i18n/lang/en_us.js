@@ -1,6 +1,6 @@
 export default {
   app: {
-    app_name: 'HiApp',
+    app_name: 'Tbook',
     back: 'Back',
     save: 'Save',
     unknown: 'Unknown',
@@ -13,6 +13,7 @@ export default {
     feedback: 'Feedback',
     about: 'About',
     avatar: 'Avatar',
+    logout: 'logout',
     name: 'Name',
     gender: 'Gender',
     location: 'Location',
@@ -34,6 +35,12 @@ export default {
     like: 'Like',
     noNewestPost: 'New article not loaded.'
   },
+  login: {
+    auth: 'Login',
+    new: 'Sign up',
+    username: 'Username',
+    password: 'Password'
+  },
   contacts: {
     placeholder: 'Search in contacts',
     empty: 'Empty Contacts'
@@ -53,6 +60,7 @@ export default {
     placeholder: 'what\'s new with you.'
   },
   post: {
-    post: 'Post'
+    post: 'Post',
+    comment: 'Comentar'
   }
 }
