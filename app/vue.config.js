@@ -11,7 +11,7 @@ module.exports = {
         target: backEndServer,
         changeOrigin: true,
         pathRewrite: {
-          '^/api': '/BelinChung/api-mock/master/HiApp',
+          '^/api': '/BelinChung/api-mock/master/tBook',
         },
       }
     }

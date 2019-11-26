@@ -1,21 +1,21 @@
-HiApp
+tBook
 =====
 
 A simple and interesting Framework7 hybrid app.With Cordova you can easily convert it to native iOS app.
 
 ## React Native
 
-HiApp is also written in React Native. [BelinChung/react-native-hiapp](https://github.com/BelinChung/react-native-hiapp)
+tBook is also written in React Native. [BelinChung/react-native-tbook](https://github.com/BelinChung/react-native-tbook)
 
 Unlike Cordova, React Native provides bindings for native UI controls which totally outclass HTML-based hybrid solutions. so it is simple to write high-performance UI by React Native. 
 
 ## Build Tools
 
-HiApp use different build tools to build the same project, Hope it will helps you select a suitable build tool.
+tBook use different build tools to build the same project, Hope it will helps you select a suitable build tool.
 
 * `f7-vue-webpack` at origin/master
-* `f7-webpack` at [origin/f7-webpack](https://github.com/BelinChung/HiApp/tree/f7-webpack)
-* `fis3` at [origin/fis3](https://github.com/BelinChung/HiApp/tree/fis3)
+* `f7-webpack` at [origin/f7-webpack](https://github.com/BelinChung/tBook/tree/f7-webpack)
+* `fis3` at [origin/fis3](https://github.com/BelinChung/tBook/tree/fis3)
 
 ## Requirements
 
@@ -39,7 +39,7 @@ CocoaPods: installed 1.7.5
 
 ## Dependencies
 
-HiApp use `npm` to manage third-party packages now.
+tBook use `npm` to manage third-party packages now.
 
 Then install all dependencies, in repo's root:
 
@@ -60,17 +60,17 @@ $ npm install cordova -g
 Go to the directory where you maintain your source code, and run a command such as the following:
 
 ```
-$ cordova create hiapp com.hiapp.hiapp HiApp
+$ cordova create tbook com.tbook.tbook tBook
 ```
 
 ### 2. Check out source code
 
-Because the Cordova app directory should not already exist, so check out the HiApp source code in this step.
+Because the Cordova app directory should not already exist, so check out the tBook source code in this step.
 
 ```
-$ cd hiapp  
+$ cd tbook  
 $ git init   
-$ git remote add origin https://github.com/BelinChung/HiApp.git  
+$ git remote add origin https://github.com/BelinChung/tBook.git  
 $ git fetch  
 $ git reset --hard origin/master  
 ```
@@ -110,7 +110,7 @@ $ cordova run ios
 
 * Using the Xcode
 
-Double-click to open the `platforms/ios/HiApp.xcodeproj` file
+Double-click to open the `platforms/ios/tBook.xcodeproj` file
 
 Press the `Run` button to deploy the application in the emulator or iOS device
 
@@ -118,7 +118,7 @@ Press the `Run` button to deploy the application in the emulator or iOS device
 
 ### 1. Preview
 
-HiApp use webpack browser sync server to develop, Just run it in repo's root:
+tBook use webpack browser sync server to develop, Just run it in repo's root:
 
 ```
 $ npm run serve
@@ -143,4 +143,4 @@ The result is available in `www/` folder.
 Copyright (c) 2016 - 2019 Belin Chung. MIT Licensed, see [LICENSE] for details.
 
 [https://hi.dearb.me/]: https://hi.dearb.me/
-[LICENSE]:https://github.com/BelinChung/HiApp/blob/master/LICENSE.md
+[LICENSE]:https://github.com/BelinChung/tBook/blob/master/LICENSE.md
