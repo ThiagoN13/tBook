@@ -1,0 +1,24 @@
+@import "./mixins.less";
+
+#framework7-root {
+  .navbar{
+    background-color: @mainColor;
+    a.link {
+      color: @whiteColor;
+    }
+    &:after {
+      display: none;
+    }
+    .navbar-inner{
+      .title{
+        color: @whiteColor;
+        font-weight: 500 !important;
+      }
+      .right {
+        .iconfont {
+          color: @whiteColor;
+        }
+      }
+    }
+  }
+}
