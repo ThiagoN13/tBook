@@ -38,7 +38,7 @@ export default {
   login: {
     auth: 'Logar',
     new: 'Cadastre-se',
-    username: 'Usuário',
+    email: 'E-mail',
     password: 'Senha'
   },
   contacts: {
